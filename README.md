@@ -19,3 +19,5 @@ O relacionamento é 1:1, onde o cliente escolha a forma de pagamento que ele que
 <p><i>Solução: Foi criada a tabela “Entrega”, com os atributos (idEntrega, enderecoEntrega, statusEntrega, codigoRastreio). Também foi criada a tabela “Transportadoras” com os atributos (idTransportadora, razaoSocial, CNPJ, endereco).</p>
 <p>Os relacionamentos foram 1:1 para Pedido/Entrega e N:N para Entrega/Transportadoras. Cada pedido tem uma entrega. Várias entregas podem ser entregues por várias transportadoras.</i></p>
 
+<img src="https://github.com/fabio-leandro/desafio-dio-bd/blob/main/modelo%20conceitual%20ecommerce.png" alt="Modelo Conceitual Ecommerce">
+
